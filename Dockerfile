@@ -1,5 +1,5 @@
-FROM landoop/fast-data-dev:cp4.0.0
-MAINTAINER Marios Andreopoulos <marios@landoop.com>
+FROM gcr.io/visionbi-demo/fast-data-dev:0bad5b0fa773bda7d67ae100507b102a0dc5370e
+MAINTAINER Avi Gershon <avigershon at gmail com>
 
 ADD setup-and-run-connect-distributed.sh /usr/local/bin
 ADD supervisord.conf /etc/
