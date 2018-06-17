@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+mkdir avigershon;
 ID="${ID:-fast-data-dev-default}"
 BS="${BS:-localhost:9092}"
 ZK="${ZK:-localhost:2181}"
