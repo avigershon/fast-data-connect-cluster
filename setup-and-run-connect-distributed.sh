@@ -3,7 +3,7 @@
 #BIG QUERY CONNECTOR
 #wget http://search.maven.org/remotecontent?filepath=com/wepay/kcbq/kcbq-connector/1.1.0/kcbq-connector-1.1.0.jar -O /connectors/kcbq-connector-1.1.0.jar
 wget http://search.maven.org/remotecontent?filepath=com/wepay/kcbq/kcbq-connector/1.1.0/kcbq-connector-1.1.0-confluent-dist.tar -O /tmp/kcbq-connector-1.1.0-confluent-dist.tar;
-cd /connectors;
+cd /opt/confluent/share/java/;
 tar -xvf /tmp/kcbq-connector-1.1.0-confluent-dist.tar;
  
 
