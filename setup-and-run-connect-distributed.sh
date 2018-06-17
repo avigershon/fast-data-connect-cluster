@@ -23,8 +23,8 @@ sed -r \
     -i /opt/confluent/etc/schema-registry/connect-avro-distributed.properties
 cat <<EOF>>/opt/confluent/etc/schema-registry/connect-avro-distributed.properties
 zookeeper.connect=%ZK%
-key.converter.schemas.enable=true
-value.converter.schemas.enable=true
+key.converter.schemas.enable=false
+value.converter.schemas.enable=false
 EOF
 
 # Set-up advertised host name if set
