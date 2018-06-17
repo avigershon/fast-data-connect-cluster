@@ -3,7 +3,8 @@
 #BIG QUERY CONNECTOR
 #wget http://search.maven.org/remotecontent?filepath=com/wepay/kcbq/kcbq-connector/1.1.0/kcbq-connector-1.1.0.jar -O /connectors/kcbq-connector-1.1.0.jar
 wget http://search.maven.org/remotecontent?filepath=com/wepay/kcbq/kcbq-connector/1.1.0/kcbq-connector-1.1.0-confluent-dist.tar -O /tmp/kcbq-connector-1.1.0-confluent-dist.tar;
-cd /opt/confluent/share/java/;
+mkdir /opt/confluent/share/java/kafka-connect-kcbq;
+cd /opt/confluent/share/java/kafka-connect-kcbq/;
 tar -xvf /tmp/kcbq-connector-1.1.0-confluent-dist.tar;
  
 
