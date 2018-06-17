@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 #BIG QUERY CONNECTOR
-wget http://search.maven.org/remotecontent?filepath=com/wepay/kcbq/kcbq-connector/1.1.0/kcbq-connector-1.1.0.jar -O /extra-connect-jars/kcbq-connector-1.1.0.jar
+wget http://search.maven.org/remotecontent?filepath=com/wepay/kcbq/kcbq-connector/1.1.0/kcbq-connector-1.1.0.jar -O /connectors/kcbq-connector-1.1.0.jar
 
 ID="${ID:-fast-data-dev-default}"
 BS="${BS:-localhost:9092}"
